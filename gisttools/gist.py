@@ -488,8 +488,8 @@ class Gist:
 
         Parameters
         ----------
-        col : str
-            For which GIST column the reference value should be calculated.
+        columns : str, or a list of str
+            For which GIST column(s) the reference value should be calculated.
         centers : np.ndarray, shape=(n, 3)
             Positions of n atoms to project GIST data to. If 'struct', uses self.coord.
             Default 'struct'.
